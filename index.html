@@ -31,21 +31,25 @@
                 <input type="text" placeholder="Search..">
             </div>
 
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                 <img src="images/Socialbook_img/profile-pic.png" alt="">
             </div>
         </div>
         <!-- settings-sidebar  -->
 
-        <div class="settings-menu"> 
+    <div class="settings-menu">
+               <div id="dark-btn">
+                   <span></span>
+               </div> 
         <div class="settings-menu-inner">
-                <div class="user-profile">
+              <div class="user-profile">
                     <img src="images/Socialbook_img/profile-pic.png" alt="">
                     <div>
                         <p>John Nichloson</p>
                         <a href="#">See your profile</a>
                     </div>
                 </div>
+                <hr>
                 <div class="user-profile">
                     <img src="images/Socialbook_img/feedback.png" alt="">
                     <div>
@@ -53,7 +57,24 @@
                         <a href="#">Help us to improve the new design</a>
                     </div>
                 </div>
-        </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/Socialbook_img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/Socialbook_img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/Socialbook_img/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/Socialbook_img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/Socialbook_img/display.png" class="settings-icon">
+                    <a href="#">Displya & Accessiblity <img src="images/Socialbook_img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/Socialbook_img/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/Socialbook_img/arrow.png" width="10px"></a>
+                </div>
+      </div>
            
             
         </div>
@@ -376,6 +397,10 @@
     <footer class="footer">
         <p>Copyright 2021 Easy Tutorials Youtube channel</p>
     </footer>
+    
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
